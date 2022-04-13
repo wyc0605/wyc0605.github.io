@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>生词</title>
+	<style>
+        body {
+            background:url("images/beijing1.png")no-repeat;
+            background-size:100% 100%;
+            background-attachment:fixed;
+        }
+        #div1{display:none;}
+    </style>
+
+</head>
+<body>
+	<h1>生词</h1>
+	<p>轻拍，拍打：___________</p>
+	<p>宏伟的；豪华的：___________</p>
+	<p>紧的：___________</p>
+	<p>用后腿直立起来：___________</p>
+	<p>疼痛的：___________</p>
+	<p>痛苦的：___________</p>
+	<p>舌头：___________</p>
+	<p>搭档：___________</p>
+	<p>缰绳：___________</p>
+	<p>胸部：___________</p>
+	<p>马车：___________</p>
+	<h2>学以致用</h2>
+	<p>翻译：</p>
+	<p>我的搭档用疼痛的舌头使紧紧的缰绳拍打他宏伟的胸部，他十分痛苦并用后腿在马车上直立起来：</p>
+	<p>________________________________________________________________________________________</p>
+	<p>________________________________________________________________________________________</p>
+	<div style="cursor:hand" onclick="isHidden('div1')"><b>参考答案：</b></div>
+	<div id="div1">My partner uses his sore tongue to make the tight rein pat his grand chest,he is very miserable and rears up on the carridge.</div>
+	<script type="text/javascript">
+	function isHidden(oDiv) {
+		var vDiv = document.getElementById(oDiv);
+		vDiv.style.display = (vDiv.style.display == 'block')?'none':'block';
+	}
+	</script>
+</body>
+</html>
